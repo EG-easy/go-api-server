@@ -11,6 +11,8 @@ GET     /                                       App.Index
 
 #UserのAPI
 GET     /api/v1/users                       UserApi.GetUsers
+GET     /api/v1/user/:number                UserApi.GetUser
+
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

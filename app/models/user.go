@@ -9,3 +9,8 @@ type User struct {
 	Description string `gorm:"column:Description"`
 	SiblingInfo json.RawMessage `gorm:"column:SiblingInfo"`
 }
+
+type SiblingInfo struct {
+	Sibling string `json:"sibling"`
+	Name string `json:"name"`
+}

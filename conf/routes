@@ -12,6 +12,7 @@ GET     /                                       App.Index
 #UserのAPI
 GET     /api/v1/users                       UserApi.GetUsers
 GET     /api/v1/user/:number                UserApi.GetUser
+GET     /api/v1/createUser                  UserApi.PostUser
 
 
 # Ignore favicon requests
